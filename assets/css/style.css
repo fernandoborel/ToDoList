@@ -3,5 +3,31 @@
   font-family: 'M PLUS 2', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-
-
+body{
+  background-color: #121212;
+}
+.description {
+  margin: 30px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.desc{
+  text-align: center;
+}
+.desc h1{
+  font-weight: 700;
+  color: #eee;
+}
+.desc h2{
+  font-weight: 400;
+}
+.amarelo {
+  color: #e5e619;
+}
+.green{
+  color: #01978b;
+}
+.blue{
+  color: #01796f;
+}
