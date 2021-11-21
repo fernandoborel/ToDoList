@@ -31,3 +31,78 @@ body{
 .blue{
   color: #01796f;
 }
+
+/*input e botão*/
+button img {
+  height: 17px;
+  width: 10px;
+}
+.search {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.search input{
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  outline: none;
+}
+
+.search input:hover{
+  border: 3px solid #0000ff;
+}
+
+.search input::placeholder{
+  padding: 5px;
+  font-size: 15px;
+}
+
+/*list*/
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #025f70;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #4EB9CD;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+}
+
+li:hover {
+  background: #76CFE0;
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right !important;
+  color: #025f70;
+  font-weight: 800;
+}
+
+/*mudança de tarefas*/
+
+.done {
+  background-color: #01796f !important;
+  color: #025f70;
+}
+
+.delete {
+  display: none;
+}
