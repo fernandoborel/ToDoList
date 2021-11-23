@@ -7,7 +7,7 @@ body{
   background-color: #121212;
 }
 .description {
-  margin: 30px auto;
+  margin: 50px auto;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -105,4 +105,34 @@ li > button {
 
 .delete {
   display: none;
+}
+
+/*mudar tema*/
+.light {
+  background: #eee;
+  color: #121212;
+}
+
+.light .tema button {
+  background: #121212;
+  color: #eee;
+  border: 2px solid #f7f7f7;
+}
+
+.tema button {
+  display: flex;
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.light .desc h1,
+.light .desc h2{
+  color: #121212;
 }

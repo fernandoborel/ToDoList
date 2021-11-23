@@ -44,3 +44,8 @@ function addListAfterKeypress() {
         createListElement();
     }
 }
+
+// mudar tema
+function mudaTema() {
+    document.body.classList.toggle("light");
+}
