@@ -24,8 +24,11 @@ function createListElement() {
     dBtn.appendChild(document.createTextNode("X"));
     li.appendChild(dBtn);
     dBtn.addEventListener("click", deleteListItem);
+
+    function deleteListItem() {
+        li.classList.add("delete");
+    }
 }
 
-function deleteListItem() {
-    li.classList.add("delete");
-}
+enterButtton.addEventListener("click", addListAfterClick);
+input.addEventListener("keypress", addListAfterKeypress);
