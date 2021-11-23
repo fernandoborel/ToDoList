@@ -1,5 +1,5 @@
 var enterButtton = document.getElementById("enter");
-var input = document.getElementById("input");
+var input = document.getElementById("userInput");
 var ul = document.getElementById("ul");
 var item = document.getElementsByTagName("li");
 
@@ -32,3 +32,15 @@ function createListElement() {
 
 enterButtton.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeypress);
+
+function addListAfterClick() {
+    if (inputLength() > 0) {
+        createListElement();
+    }
+}
+
+function addListAfterKeypress() {
+    if (inputLength() > 0 && event.which === 13) {
+        createListElement();
+    }
+}

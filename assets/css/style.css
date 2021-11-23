@@ -75,7 +75,7 @@ li {
   border: 2px solid #025f70;
   border-radius: 5px;
   margin-bottom: 10px;
-  background: #4EB9CD;
+  background: #025f70;
   transition: all 0.75s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -92,7 +92,7 @@ li > button {
   background: none;
   border: none;
   float: right !important;
-  color: #025f70;
+  color: #01796f;
   font-weight: 800;
 }
 
@@ -100,7 +100,7 @@ li > button {
 
 .done {
   background-color: #01796f !important;
-  color: #025f70;
+  color: #eee;
 }
 
 .delete {
