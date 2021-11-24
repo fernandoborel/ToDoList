@@ -7,7 +7,7 @@ body{
   background-color: #121212;
 }
 .description {
-  margin: 50px auto;
+  margin: 100px auto;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -51,7 +51,7 @@ button img {
 }
 
 .search input:hover{
-  border: 3px solid #0000ff;
+  border: 3px solid #76CFE0;
 }
 
 .search input::placeholder{
@@ -69,13 +69,13 @@ ul {
 li {
   list-style: none;
   padding: 10px 20px;
-  color: #ffffff;
+  color: #121212;
   text-transform: capitalize;
   font-weight: 600;
-  border: 2px solid #025f70;
+  border: 2px solid #eee;
   border-radius: 5px;
   margin-bottom: 10px;
-  background: #025f70;
+  background: #eee;
   transition: all 0.75s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -92,7 +92,7 @@ li > button {
   background: none;
   border: none;
   float: right !important;
-  color: #01796f;
+  color: #121212;
   font-weight: 800;
 }
 
@@ -135,4 +135,13 @@ li > button {
 .light .desc h1,
 .light .desc h2{
   color: #121212;
+}
+
+.light li {
+  background-color: #121212;
+  color: #eee;
+}
+
+.light li > button {
+  color: #eee;
 }
