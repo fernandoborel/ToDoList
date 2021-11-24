@@ -20,6 +20,7 @@ function createListElement() {
 
     li.addEventListener("click", crossOut);
 
+    // botão remover a lista
     var dBtn = document.createElement("button");
     dBtn.appendChild(document.createTextNode("X"));
     li.appendChild(dBtn);
@@ -39,6 +40,7 @@ function addListAfterClick() {
     }
 }
 
+// apertar o enter e ir
 function addListAfterKeypress() {
     if (inputLength() > 0 && event.which === 13) {
         createListElement();
